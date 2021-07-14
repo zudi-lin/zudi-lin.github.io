@@ -33,3 +33,11 @@ Topics: Semantic & Instance Segmentation, Active Learning, Connectomics.
 * *Research Intern*, **Mitsubishi Electric Research Laboratories ([MERL](https://www.merl.com))**  
 Time: Summer 2019. Mentor: Dr. Ziming Zhang  
 Topics: Improving Test-Time Adversarial Robustness of CNN Models.
+
+* *Research Intern*, Center For Brain Science, **Harvard University**  
+Time: Summer 2016. Advisor: Prof. Jeff W. Lichtman  
+Topics: Data Analysis for Electron Microscopy (EM) Connectomics.
+
+* *Research Intern*, Centre for Computational Biology, **University College London**  
+Time: Summer 2015. Advisor: Prof. Ziheng Yang, FRS  
+Topics: Bayesian Molecular Evolution.
