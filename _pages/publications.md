@@ -19,7 +19,7 @@ You could also find my papers on my [Google Scholar profile](https://scholar.goo
 
 * Alexander Shapson-Coe, Michał Januszewski, Daniel R. Berger, Art Pope, Yuelong Wu, Tim Blakely, Richard L. Schalek, Peter Li, Shuohong Wang, Jeremy Maitin-Shepard, Neha Karlupia, Sven Dorkenwald, Evelina Sjostedt, Laramie Leavitt, Dongil Lee, Luke Bailey, Angerica Fitzmaurice, Rohin Kar, Benjamin Field, Hank Wu, Julian Wagner-Carena, David Aley, Joanna Lau, **Zudi Lin**, Donglai Wei, Hanspeter Pfister, Adi Peleg, Viren Jain and Jeff W. Lichtman.
 "A Connectomic Study of A Petascale Fragment of Human Cerebral Cortex."
-*bioRxiv*, 2020 (Under Review) [[Paper](https://www.biorxiv.org/content/10.1101/2021.05.29.446289v2)] [[Google AI Blog](https://ai.googleblog.com/2021/06/a-browsable-petascale-reconstruction-of.html)]
+*bioRxiv*, 2021 (Under Review) [[Paper](https://www.biorxiv.org/content/10.1101/2021.05.29.446289v2)] [[**Google AI Blog**](https://ai.googleblog.com/2021/06/a-browsable-petascale-reconstruction-of.html)]
 
 * **Zudi Lin**, Donglai Wei, Mariela Petkova, Yuelong Wu, Zergham Ahmed, Krishna Swaroop K, Silin Zou, Nils Wendt, Jonathan Boulanger-Weill, Xueying Wang, Nagaraju Dhanyasi, Ignacio Arganda-Carreras, Florian Engert, Jeff Lichtman and Hanspeter Pfister.
 "NucMM Dataset: 3D Neuronal Nuclei Instance Segmentation at Sub-Cubic Millimeter Scale."

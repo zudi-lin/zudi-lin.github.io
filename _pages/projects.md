@@ -24,9 +24,9 @@ author_profile: true
 
 The field of ***connectomics*** aims to reconstruct the wiring diagram of the brain by mapping the neural connections at the level of individual synapses. Recent advances in electronic microscopy (EM) have enabled the collection of a large number of image stacks at nanometer resolution, but the annotation requires expertise and is super time-consuming. Here we provide a deep learning framework powered by [PyTorch](https://pytorch.org/) for automatic and semi-automatic image segmentation in connectomics. This repository is actively under development by Visual Computing Group ([VCG](https://vcg.seas.harvard.edu)) at Harvard University.
 
-### [[Documentation](https://zudi-lin.github.io/pytorch_connectomics/build/html/index.html)] [[GitHub](https://github.com/zudi-lin/pytorch_connectomics#pytorch-connectomics)]
+### [[Documentation](https://connectomics.readthedocs.io/)] [[GitHub](https://github.com/zudi-lin/pytorch_connectomics#pytorch-connectomics)]
 
-Besides installation guidance and package references, we provide several tutorials covering both semantic and instance segmentation for [neurons](https://zudi-lin.github.io/pytorch_connectomics/build/html/tutorials/snemi.html), and other biological structures like [synapses](https://zudi-lin.github.io/pytorch_connectomics/build/html/tutorials/cremi.html) and [mitochondria](https://zudi-lin.github.io/pytorch_connectomics/build/html/tutorials/mito.html).
+Besides installation guidance and package references, we provide several tutorials covering both semantic and instance segmentation for [neurons](https://connectomics.readthedocs.io/en/latest/tutorials/neuron.html), and other biological structures like [synapses](https://connectomics.readthedocs.io/en/latest/tutorials/synapse.html) and [mitochondria](https://connectomics.readthedocs.io/en/latest/tutorials/mito.html).
 
 ------------------------------------------------------------------------------
 ## Two-Stream Active Query Suggestion for Active Learning in Connectomics <a name="two_stream_active"></a>
