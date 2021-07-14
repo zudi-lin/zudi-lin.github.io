@@ -11,6 +11,7 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 -->
+
 ## Table of Contents
 
 1. [PyTorch Connectomics](#pytorch_connectomics)
@@ -18,6 +19,7 @@ author_profile: true
 3. [Connectomics Challenges](#challenges)
 
 ------------------------------------------------------------------------------
+
 ## PyTorch Connectomics <a name="pytorch_connectomics"></a>
 
 ### Introduction
@@ -26,9 +28,14 @@ The field of ***connectomics*** aims to reconstruct the wiring diagram of the br
 
 ### [[Documentation](https://connectomics.readthedocs.io/)] [[GitHub](https://github.com/zudi-lin/pytorch_connectomics#pytorch-connectomics)]
 
+<a href="https://connectomics.readthedocs.io/en/latest/">
+<img style="float:left;margin:10px 10px 0px 0px" src="/files/figures/misc/pytc_logo_square.png" alt="PyTC Logo" width="160" height="160">
+</a>
+
 Besides installation guidance and package references, we provide several tutorials covering both semantic and instance segmentation for [neurons](https://connectomics.readthedocs.io/en/latest/tutorials/neuron.html), and other biological structures like [synapses](https://connectomics.readthedocs.io/en/latest/tutorials/synapse.html) and [mitochondria](https://connectomics.readthedocs.io/en/latest/tutorials/mito.html).
 
 ------------------------------------------------------------------------------
+
 ## Two-Stream Active Query Suggestion for Active Learning in Connectomics <a name="two_stream_active"></a>
 
 ![Two-stream active](/files/figures/two_stream/two_stream_overview.png)
@@ -47,20 +54,19 @@ Zudi Lin, [Donglai Wei](https://donglaiw.github.io), [Won-Dong Jang](https://wdj
 
 ### Code
 
-* Mitocondria Segmentation on the Lucchi Dataset [[Link](https://zudi-lin.github.io/pytorch_connectomics/build/html/tutorials/mito.html#semantic-segmentation)]
-* Synaptic Cleft Detection on the CREMI Dataset [[Link](https://zudi-lin.github.io/pytorch_connectomics/build/html/tutorials/synapse.html#synaptic-cleft-detection)]
-* Synaptic Polarity Detection on the EM-R50 Dataset [[Link](https://zudi-lin.github.io/pytorch_connectomics/build/html/tutorials/synapse.html#synaptic-polarity-detection)]
-* ***Two-Stream Query Suggestion*** Algorithm [[Link](https://github.com/zudi-lin/pytorch_connectomics/blob/master/scripts/tools/active_learning/two_stream.py)]
+* Mitocondria Segmentation on the Lucchi Dataset [[Link](https://connectomics.readthedocs.io/en/latest/tutorials/mito.html#semantic-segmentation)]
+* Synaptic Cleft Detection on the CREMI Dataset [[Link](https://connectomics.readthedocs.io/en/latest/tutorials/synapse.html#synaptic-cleft-detections)]
+* Synaptic Polarity Detection on the EM-R50 Dataset [[Link](https://connectomics.readthedocs.io/en/latest/tutorials/synapse.html#synaptic-polarity-detection)]
+* ***Two-Stream Query Suggestion*** Algorithm [[Link](https://github.com/zudi-lin/pytorch_connectomics/blob/master/scripts/tools/two_stream.py)]
 
 ### Dataset
-
-Todo
 
 ### Acknowledgements
 
 This project has been partially supported by NSF award IIS-1835231 and NIH award 5U54CA225088-03.
 
 ------------------------------------------------------------------------------
+
 ## Connectomics Challenges <a name="challenges"></a>
 
 ### MitoEM Challenge: Large-scale 3D Mitochondria Instance Segmentation
@@ -70,3 +76,11 @@ This project has been partially supported by NSF award IIS-1835231 and NIH award
 </a>
 
 The task is the ***3D mitochondria instance segmentation*** on two 30x30x30 μm^3 datasets, 1000x4096x4096 in voxels at (30, 8, 8) nanometer (nm) resolution. The electron microscopy (EM) image volumes are acquired from a rat (MitoEM-R) and a human (MitoEM-H) tissue, respectively. The mitochondria can display a complex morphology, *e.g.*, mitochondria-on-a-string (MOAS) instances that are connected by thin microtubules, and multiple instances can entangle with each other. Our [MitoEM challenge](https://mitoem.grand-challenge.org) is held at [IEEE ISBI 2021](https://biomedicalimaging.org/2021/).
+
+### NucMM Challenge: 3D Neuronal Nuclei Instance Segmentation at Sub-Cubic Millimeter Scale
+
+<a href="https://nucmm.grand-challenge.org/">
+<img style="float:left;margin:10px 10px 0px 0px" src="/files/figures/challenges/nucmm_logo.png" alt="NucMM Logo" width="160" height="160">
+</a>
+
+The task is the ***3D neuronal nuclei instance segmentation*** on two sub-cubic millimeter scale datasets, one 0.1 mm^3 electron microscopy (EM) volume containing nearly the entire zebrafish brain with around 170,000 nuclei; and one 0.25 mm^3 micro-CT (uCT) volume containing part of a mouse visual cortex with about 7,000 nuclei. With two imaging modalities and significantly increased volume size and instance numbers, we discover a great diversity of neuronal nuclei in appearance and density, introducing new challenges to the field. Please check our [paper](https://arxiv.org/abs/2107.05840) for more detils.
