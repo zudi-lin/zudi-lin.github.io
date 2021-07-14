@@ -32,7 +32,8 @@ The field of ***connectomics*** aims to reconstruct the wiring diagram of the br
 <img style="float:left;margin:10px 10px 0px 0px" src="/files/figures/misc/pytc_logo_square.png" alt="PyTC Logo" width="160" height="160">
 </a>
 
-Besides installation guidance and package references, we provide several tutorials covering both semantic and instance segmentation for [neurons](https://connectomics.readthedocs.io/en/latest/tutorials/neuron.html), and other biological structures like [synapses](https://connectomics.readthedocs.io/en/latest/tutorials/synapse.html) and [mitochondria](https://connectomics.readthedocs.io/en/latest/tutorials/mito.html).
+Besides installation guidance and package references, we provide several tutorials covering both semantic and instance segmentation for [neurons](https://connectomics.readthedocs.io/en/latest/tutorials/neuron.html), and other biological structures like [synapses](https://connectomics.readthedocs.io/en/latest/tutorials/synapse.html) and [mitochondria](https://connectomics.readthedocs.io/en/latest/tutorials/mito.html). Please join our Slack community using this [link](https://join.slack.com/t/pytorchconnectomics/shared_invite/zt-obufj5d1-v5_NndNS5yog8vhxy4L12w).
+<br/><br/>
 
 ------------------------------------------------------------------------------
 
