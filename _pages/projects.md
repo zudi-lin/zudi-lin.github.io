@@ -85,3 +85,11 @@ The task is the ***3D mitochondria instance segmentation*** on two 30x30x30 μm^
 </a>
 
 The task is the ***3D neuronal nuclei instance segmentation*** on two sub-cubic millimeter scale datasets, one 0.1 mm^3 electron microscopy (EM) volume containing nearly the entire zebrafish brain with around 170,000 nuclei; and one 0.25 mm^3 micro-CT (uCT) volume containing part of a mouse visual cortex with about 7,000 nuclei. With two imaging modalities and significantly increased volume size and instance numbers, we discover a great diversity of neuronal nuclei in appearance and density, introducing new challenges to the field. Please check our [paper](https://arxiv.org/abs/2107.05840) for more detils.
+
+### AxonEM Challenge: 3D Axon Instance Segmentation of Brain Cortical Regions
+
+<a href="https://axonem.grand-challenge.org/">
+<img style="float:left;margin:10px 10px 0px 0px" src="/files/figures/challenges/axonem_logo.png" alt="NucMM Logo" width="160" height="160">
+</a>
+
+The task is the ***3D axon instance segmentation*** on two 30x30x30 um^3 electron microscopy (EM) image volumes from the human and mouse cortex, respectively. Due to the complex morphology, an accurate reconstruction of cortical axons has become a major challenge in EM connectomics. We thoroughly proofread over 18,000 axon instances to provide dense 3D axon instance segmentation, enabling large-scale evaluation of axon reconstruction methods. In addition, we densely annotate nine ground truth subvolumes for training, per each data volume. Please check our [paper](https://arxiv.org/abs/2107.05451) for more detils.

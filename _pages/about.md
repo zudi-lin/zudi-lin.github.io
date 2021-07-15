@@ -21,7 +21,7 @@ Harvard University, 2017 – 2020
 Cambridge MA, USA
 
 * **B.S. in Biological Sciences**  
-Tsinghua University 2013 – 2017  
+Tsinghua University, 2013 – 2017  
 Beijing, China  
 
 ## Work Experience
