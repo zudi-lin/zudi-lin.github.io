@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a computer science Ph.D. candidate in the School of Engineering and Applied Sciences (SEAS) at Harvard University, advised by Prof. [Hanspeter Pfister](https://en.wikipedia.org/wiki/Hanspeter_Pfister). I am interested in computer vision, deep learning, and neuroscience. My current projects include semantic & instance segmentation, active learning, unsupervised learning, and the analysis of comprehensive neuron connectivity in microscopy images of animal brains (connectomics).
+I am a computer science Ph.D. candidate in the School of Engineering and Applied Sciences (SEAS) at Harvard University, advised by Prof. [Hanspeter Pfister](https://en.wikipedia.org/wiki/Hanspeter_Pfister). I also work closely with Prof. [Jeff Lichtman](https://en.wikipedia.org/wiki/Jeff_W._Lichtman). I am interested in computer vision, deep learning, and neuroscience. My current projects include semantic & instance segmentation, self-supervised learning, unsupervised learning, and the analysis of comprehensive neuron connectivity in microscopy images of animal brains (*i.e.*, [connectomics](https://ai.googleblog.com/2021/06/a-browsable-petascale-reconstruction-of.html)).
 
 ## Education
 
