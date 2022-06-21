@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zudi Lin</title>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <link rel="shortcut icon" type="image/x-icon" href="images/misc/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.7.5-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
+  <link href='css/style.css?_t=20200916' rel='stylesheet' type='text/css'>
+  <script defer src="font-awesome/js/brands.min.js"></script>
+  <script defer src="font-awesome/js/regular.min.js"></script>
+  <script defer src="font-awesome/js/fontawesome.min.js"></script>
+    <style>
+      .red {
+        color: rgb(238, 76, 44);
+        font-style: normal;
+      }
+      .blue {
+        color: rgb(238, 76, 44);
+        font-style: normal;
+      }
+       
+      #intro {
+       margin-top: 0em !important;
+      }
+      
+      .content h3 {
+       margin-bottom: 1em!important;
+       margin-top: 2em!important;
+      }
+
+      .content figure {
+       width: 90%;
+       display: flex;
+       align-items: center;
+       overflow: hidden;
+       margin-left: auto!important;
+       margin-right: auto!important;
+      }
+      
+      .columns:not(:last-child) {
+       margin-bottom: 1.75rem!important;
+      }
+
+      #sidebar {
+        width: 75%;
+      }
+
+      @media screen and (min-width: 769px), print {
+        .column.is-2_5, .column.is-2-tablet {
+          flex: none;
+          width: 20%;
+        }
+      }
+</style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-2_5">
+          <div class="sticky">
+            <figure class="image" style="width: 11.6rem; margin-top: 6px;">
+              <img src="images/misc/profile.jpg">
+            </figure>
+            <div class="content">
+              <h2 style="margin-top: 1em">Zudi Lin</h2>
+              <p>
+                <b>Amazon Alexa</b><br/> 
+                101 Main Street<br/> 
+                Cambridge, MA 02142
+              </p>
+            </div>
+            <!-- social network icons -->
+            <div class="social">
+              <a href="https://github.com/zudi-lin" target="_blank">
+                <span class="fab fa-github fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a;"></span>
+              </a>
+              <a href="https://scholar.google.com/citations?user=xYh5BEIAAAAJ" target="_blank">
+                <span class="fab fa-google fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; margin-left: 15px"></span>
+              </a>
+              <a href="https://www.linkedin.com/in/zudi-lin/" target="_blank">
+                <span class="fab fa-linkedin fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; margin-left: 15px"></span>
+              </a>
+              <a href="mailto:linzudi@gmail.com" target="_blank">
+                <span class="fa-regular fa-envelope fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; margin-left: 15px"></span>
+              </a>
+            </div>
+
+
+            <div id="sidebar" class="menu sticky is-hidden-mobile">
+              <p class="menu-label"><b>Quick Links</b></p>
+              <ul class="menu-list">
+                <li><a href="#intro">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#services">Services</a></li>
+              </ul>
+              <div class="column" style="width: 40%">
+                <script type='text/javascript' id='clstr_globe' src='//cdn.clustrmaps.com/globe.js?d=VjnfOejvIIrpggl9NSOiRcw0OJHJ0QGzEhq2kCXwP94' async></script>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="column right-panel">
+          <div class="content">
+
+
+            <!--About Me-->
+            <h2 id="intro">About Me</h2>
+            <p>
+              I am an <b>Applied Scientist</b> at Amazon Alexa AI. I obtained my Ph.D. degree in Computer Science in 2022 from 
+              the John A. Paulson School of Engineering and Applied Sciences at <a href="https://www.harvard.edu/" target="_blank">Harvard University</a>, advised by Prof.
+              <a href="https://vcg.seas.harvard.edu/people" target="_blank">Hanspeter Pfister</a>. I also worked closely with Prof. <a href="https://lichtmanlab.fas.harvard.edu/people/jeff-lichtman" target="_blank">Jeff Lichtman</a>. I obtained 
+              M.S. in Computer Science from <a href="https://www.harvard.edu/" target="_blank">Harvard University</a> in 2020 and 
+              B.S. in Biological Science from <a href="https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University</a> in 2017.
+            </p>
+
+            <p>
+              I am interested in deep learning, with applications in speech, computer vision, and neuroscience. My current work 
+              focuses on speech processing and understanding.
+              My previous research topics include semantic and instance segmentation, active learning, unsupervised learning, 
+              and the analysis of comprehensive neuron connectivity in microscopy images of animal brains. I am the author of 
+              <img src="images/misc/pytc.png" alt="PyTC" width="25" height="22" style="vertical-align:middle"> 
+              <a href="https://connectomics.readthedocs.io/" target="_blank">PyTorch Connectomics</a>.
+            </p>
+            
+
+            <!--Experience-->
+            <h2 id="experience" style="margin-bottom: 25px;">Experience</h2>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/misc/alexa.png" class="img-logo">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Applied Scientist</b> | Amazon Alexa AI<br>
+                    Time: Jun 2022 - Present.  
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/misc/harvard.png" class="img-logo">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Research Assistant</b> | School of Engineering and Applied Sciences, Harvard University<br>
+                    Time: Aug 2017 - Jun 2022. Advisor: Prof. <a href="https://vcg.seas.harvard.edu/people" target="_blank">Hanspeter Pfister</a>  
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/misc/aws.jpeg" class="img-logo">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Applied Scientist Intern</b> | Amazon Web Services (AWS)<br>
+                    Time: May 2021 - Sep 2021. Mentor: Dr. <a href="https://scholar.google.com/citations?user=HmnRFhgAAAAJ&hl=en" target="_blank">Erhan Bas</a>  
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/misc/merl.png" class="img-logo">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Research Intern</b> | Mitsubishi Electric Research Laboratories (MERL)<br>
+                    Time: May 2019 - Aug 2019. Mentor: Dr. <a href="https://scholar.google.com/citations?user=2yqx3oIAAAAJ&hl=en" target="_blank">Ziming Zhang</a>  
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <!--Publications-->
+            <h2 id="publications">
+              Publications
+              <span style="font-size: 1rem;margin-left: 1rem;position: relative;bottom: .2rem;">
+                <a href="https://scholar.google.com/citations?user=xYh5BEIAAAAJ" target="_blank" style="font-size: 18px;">
+                  [Google Scholar]
+                </a>
+                <a href="https://dblp.org/pid/245/9022.html" target="_blank" style="font-size: 18px;">
+                  [DBLP]
+                </a>
+              </span>
+            </h2>
+            		  
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/velicky2022saturated.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Saturated Reconstruction of Living Brain Tissue</b><br>
+                    Philipp Velicky, Eder Miguel, Julia M. Michalska, Donglai Wei, <b>Zudi Lin</b>,
+                    Jake F. Watson, Jakob Troidl, Johanna Beyer, Yoav Ben-Simon, Christoph Sommer,
+                    Wiebke Jahr, Alban Cenameri, Johannes Broichhagen, Seth G. N. Grant, Peter Jonas,
+                    Gaia Novarino, Hanspeter Pfister, Bernd Bickel, and Johann G. Danzl<br>
+                    <i>bioRxiv, 2022</i><br>
+                    <a href="https://www.biorxiv.org/content/10.1101/2022.03.16.484431v1" target="_blank">[bioRxiv]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/cai2022mst++.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>MST++: Multi-stage Spectral-wise Transformer for Efficient Spectral Reconstruction</b><br>
+                    Yuanhao Cai, Jing Lin, <b>Zudi Lin</b>, Haoqian Wang, Yulun Zhang, Hanspeter Pfister, Radu Timofte, and Luc Van Gool<br>
+                    <i>Computer Vision and Pattern Recognition Workshops (<b>CVPRW</b>), 2022</i><br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Cai_MST_Multi-Stage_Spectral-Wise_Transformer_for_Efficient_Spectral_Reconstruction_CVPRW_2022_paper.pdf" target="_blank">[Paper]</a>
+                    <a href="https://arxiv.org/abs/2204.07908" target="_blank">[arXiv]</a>
+                    <a href="https://github.com/caiyuanhao1998/MST-plus-plus" target="_blank">[Code]</a>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Arad_NTIRE_2022_Spectral_Recovery_Challenge_and_Data_Set_CVPRW_2022_paper.pdf" target="_blank">[Challenge Paper]</a><br>
+                    <em class="blue"><b>Winner of NTIRE 2022 Challenge on Spectral Reconstruction</b></em>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/magid2022texture.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Texture-based Error Analysis for Image Super-Resolution</b><br>
+                    Salma Abdel Magid, <b>Zudi Lin</b>, Donglai Wei, Yulun Zhang, Jinjin Gu and Hanspeter Pfister<br>
+                    <i>Computer Vision and Pattern Recognition (<b>CVPR</b>), 2022</i><br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Magid_Texture-Based_Error_Analysis_for_Image_Super-Resolution_CVPR_2022_paper.pdf" target="_blank">[Paper]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/wei2022youmvos.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>YouMVOS: An Actor-centric Multi-shot Video Object Segmentation Dataset</b><br>
+                    Donglai Wei, Siddhant Kharbanda, Sarthak Arora, Roshan Roy, Nishant Jain, Akash Palrecha, Tanav
+                    Shah, Shray Mathur, Abhijay Kemkar, Ritik Mathur, Anirudh Chakravarthy, <b>Zudi Lin</b>, Won-Dong
+                    Jang, Yansong Tang, Song Bai, James Tompkin, Philip Torr and Hanspeter Pfister<br>
+                    <i>Computer Vision and Pattern Recognition (<b>CVPR</b>), 2022</i><br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Wei_YouMVOS_An_Actor-Centric_Multi-Shot_Video_Object_Segmentation_Dataset_CVPR_2022_paper.pdf" target="_blank">[Paper]</a>
+                    <a href="https://donglaiw.github.io/proj/youMVOS/" target="_blank">[Project Page]</a>
+                    <a href="https://drive.google.com/drive/folders/1XBgM-VrFfwOz7p1m5Ts2Vo81O7_qAXKy" target="_blank">[Dataset]</a><br>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/zhao2022discrete.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Discrete Cosine Transform Network for Guided Depth Super-Resolution</b><br>
+                    Zixiang Zhao, Jiangshe Zhang, Shuang Xu, <b>Zudi Lin</b> and Hanspeter Pfister<br>
+                    <i>Computer Vision and Pattern Recognition (<b>CVPR</b>), 2022</i><br>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_Discrete_Cosine_Transform_Network_for_Guided_Depth_Map_Super-Resolution_CVPR_2022_paper.pdf" target="_blank">[Paper]</a>
+                    <a href="https://arxiv.org/abs/2104.06977" target="_blank">[arXiv]</a>
+                    <a href="https://github.com/Zhaozixiang1228/GDSR-DCTNet" target="_blank">[Code]</a><br>
+                    <em class="blue"><b>Oral Presentation</b></em>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/shapson2021connectomics.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>A Connectomic Study of A Petascale Fragment of Human Cerebral Cortex</b><br>
+                    Alexander Shapson-Coe, Michał Januszewski, Daniel R. Berger, Art Pope, Yuelong Wu, Tim Blakely,
+                    Richard L. Schalek, Peter Li, Shuohong Wang, Jeremy Maitin-Shepard, Neha Karlupia, Sven Dorkenwald, 
+                    Evelina Sjostedt, Laramie Leavitt, Dongil Lee, Luke Bailey, Angerica Fitzmaurice, Rohin Kar,
+                    Benjamin Field, Hank Wu, Julian Wagner-Carena, David Aley, Joanna Lau, <b>Zudi Lin</b>, Donglai Wei,
+                    Hanspeter Pfister, Adi Peleg, Viren Jain and Jeff W. Lichtman<br>
+                    <i>bioRxiv, 2021</i><br>
+                    <a href="https://www.biorxiv.org/content/10.1101/2021.05.29.446289v2" target="_blank">[bioRxiv]</a>
+                    <a href="https://h01-release.storage.googleapis.com/landing.html" target="_blank">[Dataset]</a> 
+                    <a href="https://ai.googleblog.com/2021/06/a-browsable-petascale-reconstruction-of.html" target="_blank">[<b>Google AI Blog</b>]</a>
+                    <a href="https://www.technologyreview.com/2021/08/25/1031458/scientific-mysteries-human-brain/" target="_blank">[MIT Tech Review]</a>
+                    <a href="https://www.scientificamerican.com/article/mapping-the-brain-to-understand-the-mind/" target="_blank">[Scientific American]</a>
+                    <!-- <a href="https://www.quantamagazine.org/new-brain-maps-can-predict-behaviors-20211206/" target="_blank">[Quanta Magazine]</a> -->
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/lin2021pytorch.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>PyTorch Connectomics: A Scalable and Flexible Segmentation Framework for EM Connectomics</b><br>
+                    <b>Zudi Lin</b>, Donglai Wei, Jeff Lichtman and Hanspeter Pfister<br>
+                    <i>arXiv preprint arXiv:2112.05754, 2021</i><br>
+                    <a href="https://arxiv.org/abs/2112.05754" target="_blank">[arXiv]</a>
+                    <a href="https://github.com/zudi-lin/pytorch_connectomics" target="_blank">[Code]</a>
+                    <a href="https://connectomics.readthedocs.io/" target="_blank">[<b>Documentation</b>]</a><br>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/magid2021dynamic.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Dynamic High-Pass Filtering and Multi-Spectral Attention for Image Super-Resolution</b><br>
+                    Salma Abdel Magid, Yulun Zhang, Donglai Wei, Won-Dong Jang, <b>Zudi Lin</b>, Yun Fu and Hanspeter Pfister<br>
+                    <i>International Conference on Computer Vision (<b>ICCV</b>), 2021</i><br>
+                    <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Magid_Dynamic_High-Pass_Filtering_and_Multi-Spectral_Attention_for_Image_Super-Resolution_ICCV_2021_paper.html" target="_blank">[Paper]</a>
+                    <a href="https://github.com/sabdelmagid/DFSA_ICCV21" target="_blank">[Code]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/yang2021asymmetric.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Asymmetric 3D Context Fusion for Universal Lesion Detection</b><br>
+                    Jiancheng Yang, Yi He, Kaiming Kuang, <b>Zudi Lin</b>, Hanspeter Pfister and Bingbing Ni<br>
+                    <i>Medical Image Computing and Computer Assisted Interventions (<b>MICCAI</b>), 2021</i><br>
+                    <a href="https://link.springer.com/chapter/10.1007/978-3-030-87240-3_55" target="_blank">[Paper]</a>
+                    <a href="https://arxiv.org/abs/2109.08684" target="_blank">[arXiv]</a>
+                    <a href="https://github.com/M3DV/AlignShift" target="_blank">[Code]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/lin2021nucmm.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>NucMM Dataset: 3D Neuronal Nuclei Instance Segmentation at Sub-Cubic Millimeter Scale</b><br>
+                    <b>Zudi Lin</b>, Donglai Wei, Mariela D. Petkova, Yuelong Wu, Zergham Ahmed, Krishna Swaroop K, Silin
+                    Zou, Nils Wendt, Jonathan Boulanger-Weill, Xueying Wang, Nagaraju Dhanyasi, Ignacio Arganda-Carreras, 
+                    Florian Engert, Jeff Lichtman and Hanspeter Pfister<br>
+                    <i>Medical Image Computing and Computer Assisted Interventions (<b>MICCAI</b>), 2021</i><br>
+                    <a href="https://link.springer.com/chapter/10.1007/978-3-030-87193-2_16" target="_blank">[Paper]</a>
+                    <a href="https://arxiv.org/abs/2107.05840" target="_blank">[arXiv]</a>
+                    <a href="https://github.com/zudi-lin/pytorch_connectomics/tree/master/configs/NucMM" target="_blank">[Code]</a>
+                    <a href="https://connectomics-bazaar.github.io/proj/nucMM/index.html" target="_blank">[Project Page]</a><br>
+                    <em class="blue"><b>Student Travel Award</b></em>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/wei2021axonem.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>AxonEM Dataset: 3D Axon Instance Segmentation of Brain Cortical Regions</b><br>
+                      Donglai Wei, Kisuk Lee, Hanyu Li, Ran Lu, J. Alexander Bae, Zequan Liu, Lifu Zhang, Márcia
+                      dos Santos, <b>Zudi Lin</b>, Thomas Uram, Xueying Wang, Ignacio Arganda-Carreras, Brian Matejek,
+                      Narayanan Kasthuri, Jeff Lichtman and Hanspeter Pfister<br>
+                    <i>Medical Image Computing and Computer Assisted Interventions (<b>MICCAI</b>), 2021</i><br>
+                    <a href="https://link.springer.com/chapter/10.1007/978-3-030-87193-2_16" target="_blank">[Paper]</a>
+                    <a href="https://arxiv.org/abs/2107.05840" target="_blank">[arXiv]</a>
+                    <a href="https://github.com/zudi-lin/pytorch_connectomics/tree/master/configs/NucMM" target="_blank">[Code]</a>
+                    <a href="https://connectomics-bazaar.github.io/proj/nucMM/index.html" target="_blank">[Project Page]</a><br>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/rademacher2021wood.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>The Wood Image Analysis and Dataset (WIAD): open-access visual analysis tools to advance the ecological data revolution</b><br>
+                    Tim Rademacher, Bijan Seyednasrollah, David Basler, Jian Cheng, Tessa Mandra, Elise Miller, <b>Zudi Lin</b>, 
+                    David A Orwig, Neil Pederson, Hanspeter Pfister, Andrew D Richardson, Donglai Wei and Li Yao<br>
+                    <i><b>Methods in Ecology and Evolution</b>, 2021</i><br>
+                    <a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13717" target="_blank">[Paper]</a>
+                    <a href="https://www.biorxiv.org/content/10.1101/2020.12.16.423133v2" target="_blank">[bioRxiv]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/lin2020two.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Two-Stream Active Query Suggestion for Active Learning in Connectomics</b><br>
+                    <b>Zudi Lin</b>, Donglai Wei, Won-Dong Jang, Siyan Zhou, Xupeng Chen, Xueying Wang, Richard Schalek, Daniel Berger, Adi Suissa-Peleg, 
+                    Brian Matejek, Lee Kamentsky, Toufiq Parag, Thouis Jones, Daniel Haehn, Jeff Lichtman and Hanspeter Pfister<br>
+                    <i>European Conference on Computer Vision (<b>ECCV</b>), 2020</i><br>
+                    <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630103.pdf" target="_blank">[Paper]</a>
+                    <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630103-supp.pdf" target="_blank">[Supp.]</a>
+                    <a href="https://github.com/zudi-lin/pytorch_connectomics/blob/master/scripts/tools/two_stream.py" target="_blank">[Code]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/wei2020mitoem.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>MitoEM Dataset: Large-scale 3D Mitochondria Instance Segmentation from EM Images</b><br>
+                    Donglai Wei, <b>Zudi Lin</b>, Daniel Barranco, Nils Wendt, Xingyu Liu, Wenjie Yin, Xin Huang, Aarush Gupta, Won-Dong Jang, 
+                    Xueying Wang, Ignacio Arganda-Carreras, Jeff Lichtman, Hanspeter Pfister<br>
+                    <i>Medical Image Computing and Computer Assisted Interventions (<b>MICCAI</b>), 2020</i><br>
+                    <a href="https://link.springer.com/chapter/10.1007/978-3-030-59722-1_7" target="_blank">[Paper]</a>
+                    <a href="https://github.com/zudi-lin/pytorch_connectomics/tree/master/configs/MitoEM" target="_blank">[Code]</a>
+                    <a href="https://mitoem.grand-challenge.org/" target="_blank">[<b>Challenge</b>]</a>
+                    <a href="https://connectomics.readthedocs.io/en/latest/tutorials/mito.html" target="_blank">[Tutorial]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/talwar2020topological.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>A Topological Nomenclature for 3D Shape Analysis in Connectomics</b><br>
+                    Abhimanyu Talwar, <b>Zudi Lin</b>, Donglai Wei, Yuesong Wu, Bowen Zheng, Jinglin Zhao, 
+                    Won-Dong Jang, Xueying Wang, Jeff Lichtman, and Hanspeter Pfister<br>
+                    <i>Computer Vision and Pattern Recognition Workshops (<b>CVPRW</b>), 2020</i><br>
+                    <a href="https://openaccess.thecvf.com/content_CVPRW_2020/papers/w57/Talwar_A_Topological_Nomenclature_for_3D_Shape_Analysis_in_Connectomics_CVPRW_2020_paper.pdf" target="_blank">[Paper]</a>
+                    <a href="https://github.com/donglaiw/ibexHelper" target="_blank">[Code]</a><br>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/lin2019white.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>White-Box Adversarial Defense via Self-Supervised Data Estimation</b><br>
+                    <b>Zudi Lin</b>, Hanspeter Pfister and Ziming Zhang<br>
+                    <i>arXiv preprint arXiv:1909.06271, 2019</i><br>
+                    <a href="https://arxiv.org/abs/1909.06271" target="_blank">[arXiv]</a>
+                    <a href="https://github.com/zudi-lin/RIDE" target="_blank">[Code]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/dennig2019fdive.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>FDive: Learning Relevance Models using Pattern-based Similarity Measures</b><br>
+                    Frederik Dennig, Tom Polk, <b>Zudi Lin</b>, Tobias Schreck, Hanspeter Pfister, and Michael Behrisch<br>
+                    <i>IEEE Conference on Visual Analytics Science and Technology (<b>VAST</b>), 2019</i><br>
+                    <a href="https://ieeexplore.ieee.org/abstract/document/8986940" target="_blank">[Paper]</a>
+                    <a href="https://arxiv.org/abs/1907.12489" target="_blank">[arXiv]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+            
+            <!--Awards-->
+            <h2 id="awards">Awards</h2>
+            <ul>
+              <li>First Place, CVPR NTIRE Challenge on Spectral Reconstruction. 2022</li>
+              <li>MICCAI Student Travel Award. 2021</li>
+              <li>Award for Distinction in Teaching, Harvard University. 2019</li>
+              <li>Graduate Student Fellowships, Harvard University. 2017-2018</li>
+              <li>Award for Excellence in Research and Innovation, Tsinghua University. 2016</li>
+              <li>Excellent Students Research Training (SRT) Project, Tsinghua University. 2016</li>
+              <li>Tsinghua <i>Xuetang</i> Talents Program Scholarship. 2015-2017</li>
+            </ul>
+
+            <h2 id="services">Services</h2>
+            <ul>
+              <li>Conference and Journal Reviewer,
+                <br>&emsp;IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 
+                <br>&emsp;European Conference on Computer Vision (ECCV)
+                <br>&emsp;Medical Image Computing and Computer Assisted Interventions (MICCAI)
+                <br>&emsp;IEEE Transactions on Medical Imaging (TMI)
+              <li>Challenge and Workshop Organizer,
+                <br>&emsp;IEEE-ISBI 2021: MitoEM Challenge for 3D Mitochondria Instance Segmentation
+              </li>
+              <li>Associate Director, Social Entrepreneurship Initiative, Harvard GSAS Business Club. 2020-2022</li>
+              <li>Student Committee Member, The Mind Brain Behavior (MBB) Initiative, Harvard University. 2019-2020</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container">
+      <br><hr>
+      <div class="row" style="text-align: center">
+        © 2022 Zudi Lin
+      </div>
+    </footer>
+  </section>
+
+
+  <script>
+
+    var $hashList = $('.menu-list a'), offsetList, maxScrollHeight;
+
+    $('#sidebar').on('click', 'a', function(){
+      activate($(this))
+    });
+    
+    $(window).on('resize', debounce(calculateBoundary, 300));
+
+    $(document).on('scroll', debounce(judgeScroll, 300));
+
+    calculateBoundary();
+    judgeScroll();
+    
+    function  calculateBoundary() {
+      offsetList = $hashList.map(function(idx, ele){
+        return $(ele.hash).offset().top
+      });
+      maxScrollHeight = $(document).height() - $(window).height()
+    }
+    
+    function judgeScroll() {
+      var tps = $("html").scrollTop()
+              ? $("html").scrollTop()
+              : $("body").scrollTop(),
+              len = offsetList.length;
+      if(tps >= maxScrollHeight-10){
+        activate($hashList.eq(len-1));
+        return
+      }
+      for(var i=0; i<len; i++){
+       if(tps+50<offsetList[i]){
+          activate($hashList.eq(Math.max(0,i-1)));
+          return
+        }
+      }
+    }
+
+    function activate(ele){
+      $hashList.removeClass('is-active');
+      ele.addClass('is-active');
+    }
+
+    function debounce(fn, delay) {
+      var timeout = null;
+      return function () {
+        var args = arguments;
+        var context = this;
+        if (!timeout) {
+          timeout = setTimeout(function () {
+            timeout = 0;
+            return fn.apply(context, args);
+          }, delay);
+        }
+      };
+    }
+
+
+
+  </script>
+
+
+</body>
+
+</html>
